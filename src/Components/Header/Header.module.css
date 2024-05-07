@@ -3,10 +3,13 @@
     top: 0;
 
     transition: all ease-in-out 1s;
-    padding: 20px;
 
 }
 
 .bgColor{
     background-color: #1ce337;
+}
+
+.headerContent{
+    padding: 20px;
 }

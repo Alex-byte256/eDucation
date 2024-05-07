@@ -2,11 +2,11 @@ import React from "react";
 import css from './Container.module.css'
 
 type Props ={
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 export const Container: React.FC<Props> = ({children}) => {
     return(
-        <div className={css.container}>
+        <div className={css.container} >
             {children}
         </div>
     )

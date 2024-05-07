@@ -1,6 +1,6 @@
 import css from "./Sidebar.module.css"
 import sideBarArrow from '../../icons/sideBarArrow.png'
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 export const Sidebar = () =>{
     return(
         <div className={css.sideBarWrap}>

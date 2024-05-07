@@ -19,7 +19,9 @@ export const Header: React.FC = () =>{
     return(
         <div className={`${css.headerSection} ${scrollPosition> 100 && css.bgColor}`}>
             <Container>
-                Header
+                <div className={css.headerContent}>
+                    Header
+                </div>
             </Container>
         </div>
     )

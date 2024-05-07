@@ -1,6 +1,6 @@
 .container{
     max-width: 1200px;
     padding: 0 15px;
-    outline: 1px solid tomato;
+    /*outline: 1px solid tomato;*/
     margin: 0 auto;
 }

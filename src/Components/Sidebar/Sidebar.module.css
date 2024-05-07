@@ -6,7 +6,7 @@
     padding: 20px;
     height: 100vh;
 
-    background-color: #818181;
+    background-color: #c9c9c9;
     transition: all ease-in-out 1s;
 
     transform: translateX(-100%);
@@ -22,7 +22,7 @@
     right: -40px;
     transform: translateY(-50%);
 
-    background-color: #818181;
+    background-color: #c9c9c9;
     border-radius: 5px;
     padding: 10px;
 
@@ -34,28 +34,29 @@
 
 .list{
     margin: 0;
-    padding: 0;
+    padding: 20px;
 
     list-style: none;
 
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 
 .item{
-    color: #ccc8c8;
+    color: #9a9a9a;
 
     transition: all ease-in-out 1s;
 }
 
 .item:hover{
     cursor: pointer;
-
     transform: scale(1.2);
 }
 
 .active{
     color: #ffffff;
-    transform: scale(1.2);
 }
+
+
+
