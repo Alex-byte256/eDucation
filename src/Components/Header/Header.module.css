@@ -1,0 +1,11 @@
+.headerSection{
+    position: sticky;
+    top: 0;
+    background-color: #61dafb;
+    transition: all ease-in-out 1s;
+    padding: 20px;
+}
+
+.bgColor{
+    background-color: #1ce337;
+}

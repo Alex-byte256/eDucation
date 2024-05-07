@@ -1,13 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Header} from "./Components/Header/Header";
 import {Outlet} from "react-router";
+import {Sidebar} from "./Components/Sidebar/Sidebar";
 
 function App() {
+
   return (
     <>
      <Header/>
+      <Sidebar/>
      <Outlet/>
     </>
   );
