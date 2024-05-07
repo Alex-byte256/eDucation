@@ -1,0 +1,17 @@
+.sideBarWrap{
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    padding: 20px;
+    height: 100vh;
+
+    background-color: #818181;
+    transition: all ease-in-out 1s;
+
+    transform: translateX(-70%);
+}
+
+.sideBarWrap:hover{
+    transform: translateX(0);
+}
