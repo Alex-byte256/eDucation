@@ -25,4 +25,37 @@
     background-color: #818181;
     border-radius: 5px;
     padding: 10px;
+
+}
+
+.sideBarWrap:hover .arrowIcon{
+    transform: rotateY(180deg) translateY(-50%);
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item{
+    color: #ccc8c8;
+
+    transition: all ease-in-out 1s;
+}
+
+.item:hover{
+    cursor: pointer;
+
+    transform: scale(1.2);
+}
+
+.active{
+    color: #ffffff;
+    transform: scale(1.2);
 }
