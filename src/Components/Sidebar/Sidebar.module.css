@@ -9,9 +9,20 @@
     background-color: #818181;
     transition: all ease-in-out 1s;
 
-    transform: translateX(-70%);
+    transform: translateX(-100%);
 }
 
 .sideBarWrap:hover{
     transform: translateX(0);
+}
+
+.arrowIcon{
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+
+    background-color: #818181;
+    border-radius: 5px;
+    padding: 10px;
 }
