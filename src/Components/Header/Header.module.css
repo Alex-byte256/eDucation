@@ -7,7 +7,8 @@
 }
 
 .bgColor{
-    background-color: #1ce337;
+    background-image: url("/src/images/headerBackground.png");
+    background-repeat: round;
 }
 
 .headerContent{

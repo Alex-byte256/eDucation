@@ -6,7 +6,7 @@
     padding: 20px;
     height: 100vh;
 
-    background-color: #c9c9c9;
+    background-color: rgb(97, 227, 212);
     transition: all ease-in-out 1s;
 
     transform: translateX(-100%);
@@ -22,7 +22,7 @@
     right: -40px;
     transform: translateY(-50%);
 
-    background-color: #c9c9c9;
+    background-color: rgb(97, 227, 212);
     border-radius: 5px;
     padding: 10px;
 
@@ -47,6 +47,8 @@
     color: #9a9a9a;
 
     transition: all ease-in-out 1s;
+
+    font-size: 26px;
 }
 
 .item:hover{
