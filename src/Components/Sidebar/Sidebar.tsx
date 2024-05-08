@@ -9,7 +9,9 @@ export const Sidebar = () =>{
                     <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/"}>Home</NavLink></li>
                 <li className={css.item} >
                     <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/info"}>Info</NavLink></li>
-                <li className={css.item} >Test3</li>
+                <li className={css.item} >
+                   <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/slider"}>Slider</NavLink>
+                </li>
                 <li className={css.item} >Test4</li>
                 <li className={css.item} >Test5</li>
                 <li className={css.item} >Test6</li>
