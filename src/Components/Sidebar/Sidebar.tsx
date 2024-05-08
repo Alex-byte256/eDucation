@@ -12,7 +12,9 @@ export const Sidebar = () =>{
                 <li className={css.item} >
                    <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/slider"}>Slider</NavLink>
                 </li>
-                <li className={css.item} >Test4</li>
+                <li className={css.item} >
+                  <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/tailWindSlider"}>Tail Wind Slider</NavLink>
+                </li>
                 <li className={css.item} >Test5</li>
                 <li className={css.item} >Test6</li>
             </ul>
