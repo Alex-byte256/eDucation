@@ -18,7 +18,9 @@ export const Sidebar = () =>{
                 <li className={css.item} >
                     <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/modalWindow"}>Modal</NavLink>
                 </li>
-                <li className={css.item} >Test6</li>
+                <li className={css.item} >
+                    <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/gridLayout"}>Grid Layout</NavLink>
+                </li>
             </ul>
             <img src={sideBarArrow} width={40} alt="sideBarArrow" className={css.arrowIcon}/>
         </div>
