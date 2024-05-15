@@ -21,7 +21,7 @@
 .arrowIcon{
     position: absolute;
     top: 50%;
-    right: -40px;
+    right: -30px;
     transform: translateY(-50%);
 
     background-color: rgb(97, 227, 212);
@@ -62,5 +62,27 @@
     color: #ffffff;
 }
 
+.switchBtn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    padding: 10px 25px;
+    background-color: #282c34;
+    border-radius: 20px;
+
+    color: #f1f1f1;
+    font-weight: 700;
+
+    transition: all ease-in-out 1s;
+}
+
+.switchBtn:hover{
+    background-color: #101215;
+}
 
 
+
+.switchBtn:active{
+    background-color: #050404;
+}

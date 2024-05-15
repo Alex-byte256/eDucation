@@ -1,9 +1,17 @@
 import css from "./Sidebar.module.css"
 import sideBarArrow from '../../icons/sideBarArrow.png'
 import {NavLink} from "react-router-dom";
-export const Sidebar = () =>{
+
+type Props ={
+    isDark:Boolean;
+    setIsDark:any;
+}
+export const Sidebar: React.FC<Props> = ({isDark,setIsDark}) =>{
     return(
         <div className={css.sideBarWrap}>
+            <div>
+                <button className={css.switchBtn} onClick={()=>setIsDark(!isDark)}>{isDark ? "light" : "dark"}</button>
+            </div>
             <ul className={css.list}>
                 <li className={css.item} >
                     <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/"}>Home</NavLink></li>

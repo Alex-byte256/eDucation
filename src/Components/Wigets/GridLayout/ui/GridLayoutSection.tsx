@@ -10,13 +10,13 @@ export const GridLayoutSection: React.FC = () =>{
     } = useGridContent();
 
     return (
-        <div className="grid md:grid-cols-4 auto-rows-[300px] gap-4 my-10" >
+        <div className="grid md:grid-cols-4 auto-rows-[300px] gap-4 mt-[10px]" >
             {gridContent.map((item,i)=>{
                return <div key={item.id}
                className={`${boxStyle} ${i === 0 || i === 4 || i === 5 || i === 6 ? 'md:col-span-2' : ''} 
                ${i === 2 ? 'md:row-span-2' : ''} `}
                >
-                    <h2 className="text-xl text-gray-600">{item.title}</h2>
+                    <h2 className="dark:text-blue-400 text-xl text-gray-600">{item.title}</h2>
                    <p className="font-bold text-2xl">{item.describe}</p>
                </div>
             })}
