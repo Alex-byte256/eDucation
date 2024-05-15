@@ -10,7 +10,7 @@ export const GridLayoutSection: React.FC = () =>{
     } = useGridContent();
 
     return (
-        <div className="grid md:grid-cols-4 auto-rows-[300px] gap-4 mt-[10px]" >
+        <div className="grid md:grid-cols-4 auto-rows-[200px] gap-4 mt-[10px]" >
             {gridContent.map((item,i)=>{
                return <div key={item.id}
                className={`${boxStyle} ${i === 0 || i === 4 || i === 5 || i === 6 ? 'md:col-span-2' : ''} 

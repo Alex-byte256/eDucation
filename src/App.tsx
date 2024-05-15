@@ -11,7 +11,7 @@ function App() {
   return (
     <div className={`
     ${isDarkMode && 'dark'}
-    h-[100vh]
+    h-[100%]
     bg-gray-700 bg-opacity-30 
     dark:bg-black dark:bg-opacity-55`}>
      <Header/>
