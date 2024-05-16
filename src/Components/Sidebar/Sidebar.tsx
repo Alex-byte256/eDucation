@@ -29,6 +29,9 @@ export const Sidebar: React.FC<Props> = ({isDark,setIsDark}) =>{
                 <li className={css.item} >
                     <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/gridLayout"}>Grid Layout</NavLink>
                 </li>
+                <li className={css.item} >
+                    <NavLink className={({ isActive }) => isActive ? `${css.active}` : ''} to={"/ReactQuery"}>React Query</NavLink>
+                </li>
             </ul>
             <img src={sideBarArrow} width={40} alt="sideBarArrow" className={css.arrowIcon}/>
         </div>
