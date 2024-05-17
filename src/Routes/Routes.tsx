@@ -8,6 +8,7 @@ import {TailWindSliderPage} from "../Pages/TailWindSliderPage/TaildWindSliderPag
 import {ModalPage} from "../Pages/ModalPage/ModalPage";
 import {GridLayoutPage} from "../Pages/GridLayoutPage/GridLayoutPage";
 import {ReactQueryPage} from "../Pages/ReactQueryPage/ReactQueryPage";
+import {GraphPage} from "../Pages/GraphPage/GraphPage";
 
 export const router = createBrowserRouter([
     {
@@ -21,6 +22,7 @@ export const router = createBrowserRouter([
             {path: "modalWindow", element:<ModalPage/>},
             {path: "gridLayout", element:<GridLayoutPage/>},
             {path: "reactQuery", element:<ReactQueryPage/>},
+            {path: "graph", element:<GraphPage/>},
         ]
     },{
         path: '/*',
